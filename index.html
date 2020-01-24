@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Keyboard</title>
+</head>
+
+<body>
+<div class="container">
+    <section>
+        <p><b>Task 11.</b></p>
+        <p> Проект. Дан input .i-11. Используя знания html и css нарисуйте клавиатуру (можно схематически).
+            Изображение должно содержать числа, символьные клавиши, пробел, enter, caps lock, shift, tab, alt. При
+            вводе текста в input в момент нажатия клавиши - затемняйте ее, в момент отпускания - возвращайте к
+            первоначальному состоянию. Аналогично при нажатии enter, space, alt, shift, ctrl. Затемнение реализуйте
+            через добавление класса CSS. Для удобства рекомендую каждой клавише добавить атрибут data с символом.
+            Если нажата клавиша caps lock - то присвоить ей затемнение, которое работает до последующего отжатия
+            клавиши.</p>
+
+        <input type="text" class="i-11">
+        <div class="out-11">
+            <div class="row-1">
+                <div class="Backquote">~</div>
+                <div class="Digit1">1</div>
+                <div class="Digit2">2</div>
+                <div class="Digit3">3</div>
+                <div class="Digit4">4</div>
+                <div class="Digit5">5</div>
+                <div class="Digit6">6</div>
+                <div class="Digit7">7</div>
+                <div class="Digit8">8</div>
+                <div class="Digit9">9</div>
+                <div class="Digit0">0</div>
+                <div class="Minus">-</div>
+                <div class="Equal">=</div>
+                <div class="Backspace" style="width: 50px">
+                    <spen>&#8592;</spen>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="Tab" style="width: 40px">
+                    <spen>&#8633;</spen>
+                </div>
+                <div class="KeyQ">Q</div>
+                <div class="KeyW">W</div>
+                <div class="KeyE">E</div>
+                <div class="KeyR">R</div>
+                <div class="KeyT">T</div>
+                <div class="KeyY">Y</div>
+                <div class="KeyU">U</div>
+                <div class="KeyI">I</div>
+                <div class="KeyO">O</div>
+                <div class="KeyP">P</div>
+                <div class="BracketLeft">[</div>
+                <div class="BracketRight">]</div>
+                <div class="Backslash" style="width: 35px">\</div>
+            </div>
+            <div class="row-3">
+                <div class="CapsLock" style="width: 55px">CLock</div>
+                <div class="KeyA">A</div>
+                <div class="KeyS">S</div>
+                <div class="KeyD">D</div>
+                <div class="KeyF">F</div>
+                <div class="KeyG">G</div>
+                <div class="KeyH">H</div>
+                <div class="KeyJ">J</div>
+                <div class="KeyK">K</div>
+                <div class="KeyL">L</div>
+                <div class="SemicolonP">;</div>
+                <div class="Quote">'</div>
+                <div class="Enter" style="width: 50px">
+                    <spen>&#8629;</spen>
+                </div>
+            </div>
+            <div class="row-4">
+                <div class="ShiftLeft" style="width: 55px">
+                    <spen>&#8679;</spen>
+                </div>
+                <div class="KeyZ">Z</div>
+                <div class="KeyX">X</div>
+                <div class="KeyC">C</div>
+                <div class="KeyV">V</div>
+                <div class="KeyB">B</div>
+                <div class="KeyN">N</div>
+                <div class="KeyM">M</div>
+                <div class="Comma">,</div>
+                <div class="Period">.</div>
+                <div class="Slash">/</div>
+                <div class="ShiftRight" style="width: 50px">
+                    <spen>&#8679;</spen>
+                </div>
+                <div class="ArrowUp">
+                    <spen>&#8593;</spen>
+                </div>
+            </div>
+            <div class="row-5">
+                <div class="ControlLeft" style="width: 35px">ctrl</div>
+                <div class="MetaLeft">
+                    <spen>&#9635;</spen>
+                </div>
+                <div class="AltLeft">Alt</div>
+                <div class="Space" style="width: 158px">Space</div>
+                <div class="AltRight">Alt</div>
+                <div class="ControlRight" style="width: 55px">ctrl</div>
+                <div class="ArrowLeft">
+                    <spen>&#8592;</spen>
+                </div>
+                <div class="ArrowDown">
+                    <spen>&#8595;</spen>
+                </div>
+                <div class="ArrowRight">
+                    <spen>&#8594;</spen>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
